@@ -1,0 +1,33 @@
+section{
+    border: 3px solid black;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+div{
+    border: 5px solid red;
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
+}
+
+section.grid{
+    display: grid ;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+    grid-template-rows: 50px 100px 100px 200px ;
+}
+
+#header, #footer{
+    grid-column: span 4;
+}
+
+#nav{
+    
+    grid-row: span 2 ;
+}
+
+#content{
+    grid-column: span 2;
+    grid-row: span 2;
+}
