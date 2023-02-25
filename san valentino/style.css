@@ -1,0 +1,159 @@
+body{
+    background-image: url("https://www.forumforyou.it/Image/valentine34.jpg");
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.menu{
+    background-color: darkred ;
+    width: 650px;
+    height: 700px;
+    margin-left: 20px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    
+}
+
+.order{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+
+    
+   
+}
+
+
+.order-two{
+    
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+        margin-top: 60px;
+        
+    
+}
+
+.title{
+    
+    color:white;
+    font-weight:lighter;
+    font-size: 30px;
+    margin-top: 10px;
+    
+    display: flex;
+    flex-direction: row;
+   
+   
+}
+
+.san{
+    font-size: 40px;
+    color: white;
+   margin-bottom: 10px;
+}
+
+.menu-all{
+  background-color: white;
+  width: 250px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+  
+}
+
+.pizza-title{
+    font-size: 20px;
+}
+
+.under{
+    text-decoration: underline;
+    
+}
+
+.small{
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.carne{
+    margin-left: 4px;
+}
+
+.small-carne{
+    font-size: 10px;
+    
+}
+
+.menu-all-two{
+    background-color: white;
+    width: 250px;
+    height: 245px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+}
+
+.small-piadina{
+    
+        font-size: 15px;
+        margin-top: 10px;
+}
+
+
+img{
+border-radius: 50px;
+width: 90px;
+height: 90px;
+position: absolute;
+bottom: 625px;
+
+right: 45px;
+
+}
+
+.img{
+    
+    margin-left: 70px;
+    margin-top: 180px;
+    position: relative;
+}
+
+.price{
+  position: relative;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+}
+
+.num{
+  position: absolute;
+  color: black;
+  font-size: 14px;
+}
+
+.uno{
+   font-size: 10px;
+}
+#due{}
+#tre{}
+#quattro{}
+
+#icon{
+    font-size: 20px;
+    color: black;
+    width: 10px;
+}
